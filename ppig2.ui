@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>CrossCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : rgb(51, 0, 128);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(12, 216, 107);
+font: 87 30pt &quot;Segoe UI Black&quot;;
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string>Game settings</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(12, 216, 107);
+font: 87 20pt &quot;Segoe UI Black&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>music :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="music">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>90</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton {
+background:rgba(98, 255, 129,0.7);
+border:2px solid rgba(98, 255, 129,0.7) ;
+   border-radius: 25px;
+	font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+ color:rgb(85, 0, 127)
+
+}
+.QPushButton:hover {
+background:rgba(98, 255, 129,1);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>on</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(12, 216, 107);
+font: 87 20pt &quot;Segoe UI Black&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>defficulty :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dif">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>160</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton {
+background:rgba(98, 255, 129,0.7);
+border:2px solid rgba(98, 255, 129,0.7) ;
+   border-radius: 25px;
+	font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+ color:rgb(85, 0, 127)
+
+}
+.QPushButton:hover {
+background:rgba(98, 255, 129,1);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>normal</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(12, 216, 107);
+font: 87 20pt &quot;Segoe UI Black&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>win :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>220</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(12, 216, 107);
+font: 87 20pt &quot;Segoe UI Black&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>goals</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="goal">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>220</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLineEdit {
+background:rgba(98, 255, 129,0.7);
+border:2px solid rgba(98, 255, 129,0.7) ;
+   border-radius: 25px;
+	font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+ color:rgb(85, 0, 127);
+text-align: center;
+
+}
+.QLineEdit:hover {
+background:rgba(98, 255, 129,1);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sta">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>290</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton {
+background:rgba(98, 255, 129,0.7);
+border:2px solid rgba(98, 255, 129,0.7) ;
+   border-radius: 25px;
+	font: 75 40pt &quot;MS Shell Dlg 2&quot;;
+ color:rgb(85, 0, 127)
+
+}
+.QPushButton:hover {
+background:rgba(98, 255, 129,1);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>start</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
